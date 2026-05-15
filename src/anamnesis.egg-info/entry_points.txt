@@ -1,0 +1,4 @@
+[console_scripts]
+anamnesis-eval = anamnesis.scripts.anamnesis_eval:main
+anamnesis-query = anamnesis.scripts.anamnesis_query:main
+promote-procedural = anamnesis.scripts.promote_procedural:main

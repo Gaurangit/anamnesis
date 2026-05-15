@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: anamnesis
+Version: 0.1.0
+Summary: Narrative-query and procedural-knowledge layer for the Chariot stack
+Requires-Python: >=3.11
+Requires-Dist: knowledge-objects>=0.1.0
+Requires-Dist: gekg>=0.3.0
+Requires-Dist: pydantic>=2.6
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: rdflib>=7.0
+Provides-Extra: openai
+Requires-Dist: openai~=1.30; extra == "openai"
+Provides-Extra: anthropic
+Requires-Dist: anthropic~=0.30; extra == "anthropic"
+Provides-Extra: dev
+Requires-Dist: pytest~=8.0; extra == "dev"
+Requires-Dist: pytest-cov~=5.0; extra == "dev"
+Requires-Dist: pytest-httpx~=0.30; extra == "dev"
+Requires-Dist: ruff~=0.4; extra == "dev"
